@@ -4,7 +4,14 @@ body {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
   }
-   
+  
+  .divCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
   h1 {
     font-size: 28px;
   }
