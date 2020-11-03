@@ -1,0 +1,66 @@
+body {
+    background: rgb(32, 32, 109);
+    color: rgb(41, 9, 9);
+}
+
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+.imageStyle {
+    width: 250px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+
+    width: 50%;
+}
+input,
+label {
+    display: block;
+
+    margin: .4rem 0;
+}
+#topBox, #otherBox {
+    display: none;
+}
+#direction {
+    display: block;
+    
+    padding: 3rem;
+}
+
+hr {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.main {
+    margin: auto;
+    background-color: yellowgreen;
+    width: 500px;
+    height: 600px;
+    border-radius: 2.1rem;
+    padding: 2rem;
+
+}
+.top {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.label {
+    padding-bottom: 15px;
+}
+h4 .demo {
+    color:  red;
+}
+h4 .valid {
+    color: green;
+}
+
+@media only  screen and (max-width: 600px) {
+    .main {
+        width: 300px;
+    }
+} 

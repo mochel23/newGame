@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Grading Calc</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="calc.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="top">
+            <h1>Whats my Grade?</h1>
+            <button onclick="showMainCalc()">Show Grade option 1</button>
+            <button onclick="showSecondCalc()">Show Grade option 2</button>
+
+        </div>
+        <!-- first div with first calc -->
+        <div id="topBox">
+            <div id="label">
+                <label>Insert number 1 (from 1-100)</label>
+                <input type="number" id="first" min="0" max="100">
+
+                <label>Insert number 2 (from 1-100)</label>
+                <input type="number" id="second" min="0" max="100">
+
+                <label>Insert number 3 (from 1-100)</label>
+                <input type="number" id="third" min="0" max="100">
+            </div>
+            <div class="calc">
+                <button class="btn" onclick="validate()">ENTER</button>
+            </div>
+            <hr>
+        </div>
+        <!-- second dic with second calc -->
+        <div id="otherBox">
+            <h1>this is the othr calculator</h1>
+        </div>
+        <!-- Directions -->
+        <div id="direction">
+
+            <img class="imageStyle" src="images/calcImage.jpg" alt="data image">
+            <h3>There are two calculation iptions you can use.
+            </h3>
+
+
+            <h4>Whem I fond the actal calculations we can add they can be added to each individual button</h4>
+        </div>
+        <h4 id="demo" class="valid"></h4>
+
+    </div>
+</body>
+
+</html>
